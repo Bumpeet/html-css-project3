@@ -1,0 +1,150 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #D9852C;
+}
+
+
+h1 {
+    color: #FFF;
+    font-family: "Libre Caslon Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#header {
+
+    background-image: url("images/background.png");
+    background-size: cover;
+    /* opacity: 50%; */
+    height: 1024px;
+    background-position: center;
+}
+
+#header-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+#company-name {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30.4px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+#menu {}
+
+
+
+#header-tag {
+    width: 314px;
+    margin-top: 263px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+#header-content {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    width: 314px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.card {
+    border: #B7B7B7 1px solid;
+    margin: 32px auto;
+    width: 311px;
+}
+
+.card-img {
+    margin: 0;
+}
+
+.card-date {
+    color: #B7B7B7;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-left: 32px;
+}
+
+.card-heading {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 32px 32px;
+}
+
+.card-readmore {
+    color: #D9852C;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 183px;
+    margin-right: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width:744px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #header-tag {
+        width: 600px;
+    }
+
+    #header-content {
+        width: 530px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    #header-tag {
+        width: 748px;
+        margin-left: 72px;
+    }
+
+}
